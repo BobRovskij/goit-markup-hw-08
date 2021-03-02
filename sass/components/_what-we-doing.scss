@@ -1,0 +1,51 @@
+/*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
+
+.what-we-doing {
+    padding-bottom: 94px;
+    
+    text-align: center;
+}
+.what-we-doing__title {
+    margin: 0px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: $blackText;
+}
+.our-work {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.our-work p {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    margin: 0;
+    padding: 27px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    color: $whiteText;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.our-work__box {
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
+.our-work__box:not(:last-child) {
+    margin-right: 30px;
+}

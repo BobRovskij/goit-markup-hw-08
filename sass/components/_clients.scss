@@ -1,0 +1,48 @@
+/*НАШІ КЛІЄНТИ*/
+
+.clients {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    
+    text-align: center;
+}
+.clients__title {
+    margin: 0px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: $blackText;
+}
+.clients__list {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.clients__company {
+    border: 1px solid rgba(175,177,184,1);
+    border-radius: 4%;
+    width: 170px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    fill: #AFB1B8 ;
+
+    transition: $transition;
+}
+.clients__company:hover,
+.clients__company:focus {
+    border: 1px solid $blueText;
+    fill: $blueText;
+}
+.clients li:not(:last-child) {
+    margin-right: 30px;
+}

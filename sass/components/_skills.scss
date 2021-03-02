@@ -1,0 +1,89 @@
+/*ОСОБЕННОСТИ*/
+
+.skills {
+    margin-top: 94px;
+    margin-bottom: 94px;
+} 
+.skills ul {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.feature {
+    width: 270px;
+}
+.antena::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-image: url(../images/antena.svg);
+    background-repeat: no-repeat;
+    background-color: $bgTeam;
+    border-radius: 4px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.clock::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-color: $bgTeam;
+    border-radius: 4px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.diagram::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-image: url(../images/diagram.svg);
+    background-repeat: no-repeat;
+    background-color: $bgTeam;
+    border-radius: 4px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.astronaut::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-image: url(../images/astronaut.svg);
+    background-repeat: no-repeat;
+    background-color: $bgTeam;
+    border-radius: 4px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.feature__title {
+    margin: 0px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: $blackText;
+}
+.skills li:not(:last-child) {
+    margin-right: 30px;
+}
+.feature__font {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+    
+    color: $greyText;
+}
